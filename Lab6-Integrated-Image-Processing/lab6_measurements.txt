@@ -1,0 +1,12 @@
+Lab 6 - Integrated Image Processing
+Selected image: car.jpg
+Image dimensions: 507 rows x 900 columns
+Median filter: 3 x 3, symmetric boundary
+Contrast adjustment: imadjust input [0.2 0.8] to [0 1]
+Canny thresholds: [0.1 0.25]
+FFT ideal low-pass radius: 60 bins
+Mean grayscale intensity before: 0.481355
+Mean grayscale intensity after contrast enhancement: 0.481922
+Detected Canny edge pixels: 41948 (9.193%)
+RMSE between enhanced and FFT-lowpass images: 0.109417
+Note: this RMSE measures change, not quality improvement.
