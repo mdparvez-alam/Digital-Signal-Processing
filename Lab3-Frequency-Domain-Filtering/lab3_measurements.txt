@@ -1,0 +1,12 @@
+Lab 3: Frequency-Domain Filtering with fft2
+Source image: peppers.png
+Image dimensions: 384 rows x 512 columns
+Image intensity min/max (normalized): 0.031373 / 1.000000
+Ideal LP cutoff radius: 40.0 frequency bins
+Gaussian frequency LP sigma: 20.0 frequency bins
+Matched spatial/FFT Gaussian kernel: 7x7, sigma=1.20 pixels
+Boundary mode for matched comparison: circular
+Matched comparison max absolute difference: 5.55111512313e-16
+Matched comparison RMSE: 1.21560984172e-16
+Different-filter comparison RMSE (spatial 7x7 replicate vs frequency Gaussian): 0.0279062978801
+NOTE: Different-filter RMSE is not a numerical-equivalence test.
