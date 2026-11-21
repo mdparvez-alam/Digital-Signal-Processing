@@ -1,0 +1,5 @@
+SamplingFrequency_Hz,NyquistFrequency_Hz,ObservedPeak_Hz,Aliasing
+24000,12000,7000.1220703125,0
+16000,8000,7000,0
+12000,6000,4999.8779296875,1
+8000,4000,1000,1
