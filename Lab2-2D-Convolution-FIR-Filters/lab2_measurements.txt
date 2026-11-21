@@ -1,0 +1,10 @@
+Lab 2: 2D Convolution and FIR Filters
+Input image: peppers.png
+Image dimensions: 384 rows x 512 columns
+3x3 box filter coefficients: 9; each coefficient = 1/9
+7x7 box filter coefficients: 49; each coefficient = 1/49
+Gaussian sigma: 1.2; separable 1D filter length: 7
+Gaussian full 2D versus two 1D passes max difference: 4.4408920985e-16
+conv2 versus imfilter conv max difference (3x3 box): 3.33066907388e-16
+Convolution versus correlation max difference (asymmetric kernel): 9.52941176471
+Unsharp masking gain: 1.0
