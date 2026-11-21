@@ -1,0 +1,20 @@
+Lab 4: Noise and Filtering
+Source image: peppers.png
+Dimensions: 384 rows x 512 columns
+Random seed: 7
+Gaussian variance: 0.01
+Salt-and-pepper density: 0.05
+SNR method: 10*log10(sum(clean.^2)/sum((filtered-clean).^2))
+All metrics use normalized intensities on [0,1].
+
+Signal                                MSE     SNR (dB)
+Gaussian noisy                 0.00959240      11.5132
+Gaussian + mean                0.00128217      20.2530
+Gaussian + Gaussian LP         0.00185045      18.6597
+Gaussian + median              0.00185420      18.6509
+Salt-pepper noisy              0.01569393       9.3751
+Salt-pepper + mean             0.00210667      18.0965
+Salt-pepper + Gaussian LP      0.00309354      16.4279
+Salt-pepper + median           0.00012100      30.5046
+
+NOTE: Results are measured after running the script.
