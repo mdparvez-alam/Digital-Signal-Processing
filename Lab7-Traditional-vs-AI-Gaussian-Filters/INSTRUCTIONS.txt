@@ -1,0 +1,10 @@
+LAB 7: HOW TO RUN
+
+1. Upload Lab7_traditional_vs_AI.m into MATLAB Drive.
+2. Open the script in MATLAB Online and click Run.
+3. If MATLAB reports missing cameraman.tif, upload that sample image first.
+4. DnCNN may require additional model download / Deep Learning Toolbox.
+   If unavailable, the script still saves valid traditional-filter results.
+5. Download PNG files, lab7_metrics.csv and lab7_measurements.txt.
+6. Fill the README with actual results, observations, and AI-use notes.
+7. Upload to GitHub and submit the GitHub URL.

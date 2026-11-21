@@ -1,0 +1,15 @@
+Lab 7 - Traditional vs AI Gaussian Filters
+MATLAB version: 26.2.0.3468271 (R2026b) Update 2
+Image: cameraman.tif; size: 256 rows x 256 columns
+rng seed: 7; Gaussian noise mean: 0; variance: 0.001600; sigma: 0.040
+DnCNN status: SUCCESS
+
+Method | MSE | PSNR (dB) | SSIM
+Noisy | 0.00155043 | 28.0955 | 0.629876
+Mean 3x3 | 0.00268388 | 25.7124 | 0.781999
+Median 3x3 | 0.00218368 | 26.6081 | 0.762545
+Gaussian sigma 0.7 | 0.00150755 | 28.2173 | 0.821891
+Wiener 5x5 | 0.00061968 | 32.0783 | 0.880667
+AI DnCNN | 0.00055784 | 32.5349 | 0.896506
+MSE lower is better; PSNR and SSIM higher are generally better, versus original reference.
+Record your own visual comparison in README.md.
