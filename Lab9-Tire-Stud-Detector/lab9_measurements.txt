@@ -1,0 +1,16 @@
+Lab 9 - Traditional Tire Stud Detector
+
+Resize scale: 0.50
+Candidate area: 4 to 120 pixels
+Minimum circularity: 0.60
+Maximum eccentricity: 0.85
+Top-hat radius: 7
+Minimum local contrast: 0.070
+Decision threshold: 36 candidates
+
+studded_tire.jpeg | Candidates: 46 | Mask pixels: 159540 | Density: 2.883 | Prediction: STUDDED TIRE
+summer_tire.jpg | Candidates: 25 | Mask pixels: 85546 | Density: 2.922 | Prediction: NON-STUDDED TIRE
+
+Note: These classifications are heuristic predictions.
+The decision threshold was chosen using two supplied images.
+Bright candidates are not independently confirmed metal studs.

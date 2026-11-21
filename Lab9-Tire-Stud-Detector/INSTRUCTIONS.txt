@@ -1,0 +1,12 @@
+Lab 9 — Tire Stud Detector
+
+1. Download the two original tire photos from the assignment in Moodle.
+2. Upload studded_tire.jpeg and summer_tire.jpg with tire_stud_detector.m to MATLAB Drive.
+3. Open and run tire_stud_detector.m.
+4. Inspect each photo/mask/detection output; tune the thresholds if needed.
+5. Copy observed counts and classification into README.md.
+6. Download the two generated PNG files, lab9_results.csv and lab9_measurements.txt.
+7. Include script, both source photos, results, and README in your GitHub repository.
+8. Submit only the GitHub repository link in Moodle.
+
+This ZIP does not include the teacher's input images; they could not be retrieved from Moodle.
