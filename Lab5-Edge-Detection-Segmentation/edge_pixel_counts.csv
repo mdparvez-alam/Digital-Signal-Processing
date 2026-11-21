@@ -1,0 +1,5 @@
+Method,EdgePixels
+Sobel,4757
+Prewitt,4740
+Canny,6821
+LoG,8386

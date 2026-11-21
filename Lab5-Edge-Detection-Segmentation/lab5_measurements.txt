@@ -1,0 +1,12 @@
+LAB 5 - EDGE DETECTION AND SEGMENTATION
+Source image: peppers.png
+Image size: 384 rows x 512 columns
+Canny thresholds: 0.05, 0.20
+Otsu threshold (normalized 0..1): 0.396078
+Otsu foreground pixels: 53972 of 196608 (27.45%)
+8-connected regions in Otsu binary mask: 89
+Sobel edge pixels: 4757
+Prewitt edge pixels: 4740
+Canny edge pixels: 6821
+LoG edge pixels: 8386
+Note: Edge-pixel count alone does not establish edge quality.
