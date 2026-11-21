@@ -1,0 +1,7 @@
+Open Hybrid_Traditional_AI.m in MATLAB Online and click Run.
+The script uses peppers.png, which is a sample image of peppers, not a flower.
+Upload peppers.png if MATLAB cannot find it, or change sourceName to your own chosen image.
+Check the segment mask and try foregroundCluster=1 if cluster 2 selects the wrong area.
+The script saves 6 PNGs and lab8_results.txt beside itself.
+Paste your real classification labels and probabilities into the README.
+Do not claim segmentation improved accuracy based only on a confidence change.

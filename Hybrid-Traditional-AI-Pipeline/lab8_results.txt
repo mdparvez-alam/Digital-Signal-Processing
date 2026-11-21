@@ -1,0 +1,10 @@
+Hybrid Traditional + AI Pipeline
+MATLAB: 26.2.0.3468271 (R2026b) Update 2
+Image: peppers.png
+Foreground cluster: 2
+Mask coverage: 27.124%
+Original top class: bell pepper
+Original top probability: 41.7229%
+Segmented top class: sea slug
+Segmented top probability: 32.8421%
+Interpretation: class probabilities alone do not determine correctness.
