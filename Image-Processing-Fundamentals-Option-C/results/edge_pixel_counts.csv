@@ -1,0 +1,4 @@
+Method,CleanEdgePixels,NoisyEdgePixels,NoisyMinusClean
+Sobel after Gaussian sigma 1,2099,2026,-73
+Canny sigma 1,7816,18112,10296
+Canny sigma 3,2780,3184,404

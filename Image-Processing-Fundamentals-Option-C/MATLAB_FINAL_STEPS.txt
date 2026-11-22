@@ -1,0 +1,11 @@
+REMAINING ACTION IN MATLAB ONLINE
+
+1. Upload analysis.m from this package into your MATLAB project folder.
+2. In MATLAB Online set Current Folder to Image-Processing-Fundamentals-Option-C.
+3. Save analysis.m as an actual Live Script (analysis.mlx).
+4. Run All in the Live Editor.
+5. Confirm results files appear in the project results folder.
+6. Save executed analysis.mlx; export as analysis.pdf.
+7. Download and add analysis.mlx, analysis.pdf and regenerated results to the main Digital-Signal-Processing Git repository.
+
+WARNING: This package cannot contain a verified native MATLAB .mlx because the uploaded files did not include one. The revised code was not re-executed in MATLAB.
